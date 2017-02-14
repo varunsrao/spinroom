@@ -4,8 +4,8 @@ import requests
 from aylien_news_api.rest import ApiException
 from flask import Flask, jsonify
 
-aylien_news_api.configuration.api_key['X-AYLIEN-NewsAPI-Application-ID'] = '9ba2cd69'
-aylien_news_api.configuration.api_key['X-AYLIEN-NewsAPI-Application-Key'] = 'bdf4becfc24114a0924abb3e231f3649'
+aylien_news_api.configuration.api_key['X-AYLIEN-NewsAPI-Application-ID'] = '[Key here]'
+aylien_news_api.configuration.api_key['X-AYLIEN-NewsAPI-Application-Key'] = '[Key here]'
 
 # create an instance of the API class
 api_instance = aylien_news_api.DefaultApi()
